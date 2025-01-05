@@ -1,10 +1,9 @@
-* {
-    border: 1px solid red;
-}
+
 
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    min-height: 100vh;
     }    
 
     .container {
@@ -72,7 +71,7 @@ ul {
     align-items: flex-start;
 }
 
-button {
+.button1 {
     background-color: #3882f6;
     color: #e5e7eb;
     padding: 5px 20px;
@@ -93,19 +92,22 @@ button {
 .container2 {
     display: flex;
     flex-direction: column;
+    padding-bottom: 100px;
 }
 
 .card {
-    width: 150px;
-  height: 150px;
+    width: 175px;
+  height: 175px;
   border: 4px solid #3882f6;
   background: 0;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 .item {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .cards {
@@ -118,4 +120,84 @@ button {
 h1 {
     display: flex;
     justify-content: center;
+    padding: 25px;
+}
+
+.description {
+    flex-wrap: wrap;
+    max-width: 175px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #e5e7eb;
+    padding: 100px 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    padding: 0px 100px;
+    margin-bottom: 0;
+}
+
+h2 {
+   margin-left: auto;
+   margin-top: 0;
+   font-size: 24px;
+}
+
+.container4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 100px;
+}
+
+.action {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    flex:auto;
+}
+
+.products {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.button2 {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-weight: 900;
+    max-width: 125px;
+    border-color: antiquewhite;
+
+}
+
+.footer {
+    display: flex;
+    padding: 50px;
+    background-color: #1f2937;
+    color: #F9FAF8;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
 }
