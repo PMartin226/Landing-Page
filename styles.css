@@ -164,11 +164,12 @@ h2 {
 .action {
     background-color: #3882f6;
     color: #e5e7eb;
-    padding: 25px;
+    padding: 35px 50px;
     display: flex;
     justify-content: space-between;
-    border-radius: 10px;
+    border-radius: 5px;
     flex:auto;
+    align-items: center;
 }
 
 .products {
@@ -184,7 +185,8 @@ h2 {
     font-weight: 900;
     max-width: 125px;
     border-color: antiquewhite;
-
+    height: 30px;
+    font-size: 18px;
 }
 
 .footer {
@@ -200,4 +202,9 @@ h2 {
 .left {
     display: flex;
     flex-direction: column;
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
 }
