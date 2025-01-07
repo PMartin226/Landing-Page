@@ -1,7 +1,11 @@
 
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900);
+
+html, body, html * {
+  font-family: 'Roboto', sans-serif;
+}
 
 body {
-    font-family: 'Roboto', sans-serif;
     margin: 0;
     min-height: 100vh;
     }    
@@ -31,6 +35,7 @@ body {
     font-size: 24px;    
     margin-bottom: 100px;
     font-family: 'Roboto', sans-serif;
+    font-weight: 900;
 }
 
 ul {
@@ -108,6 +113,7 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .cards {
@@ -135,14 +141,15 @@ h1 {
     flex-direction: column;
     flex-wrap: wrap;
     background-color: #e5e7eb;
-    padding: 100px 300px;
+    padding: 100px 200px;
     align-items: center;
     justify-content: center;
 }
 
 p {
     font-size: 36px;
-    font-style: italic;
+    font-style:italic;
+    font-weight: 300;
     color: #1f2937;
     padding: 0px 100px;
     margin-bottom: 0;
@@ -158,7 +165,7 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 100px;
+    padding: 100px 200px;
 }
 
 .action {
@@ -167,7 +174,7 @@ h2 {
     padding: 35px 50px;
     display: flex;
     justify-content: space-between;
-    border-radius: 5px;
+    border-radius: 10px;
     flex:auto;
     align-items: center;
 }
@@ -185,7 +192,7 @@ h2 {
     font-weight: 900;
     max-width: 125px;
     border-color: antiquewhite;
-    height: 30px;
+    height: 35px;
     font-size: 18px;
 }
 
@@ -194,7 +201,7 @@ h2 {
     padding: 50px;
     background-color: #1f2937;
     color: #F9FAF8;
-    font-size: 25px;
+    font-size: 18px;
     justify-content: center;
     align-items: center;
 }
@@ -202,9 +209,15 @@ h2 {
 .left {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 h3 {
     padding: 0;
     margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
 }
